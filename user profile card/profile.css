@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: antiquewhite;
+}
+i{
+    color: white;
+    font-size:29px;
+    cursor: pointer;
+}
+.cart-top-navigation
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.left
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80rem;
+}
+#heart
+{
+    padding-right: 2rem;
+}
+.user-image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 3rem;
+}
+.user-image img
+{
+    width: 14%;
+    border-radius: 30%;
+}
+.user-name
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+}
+.about-user
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    padding: 2rem;
+    font-weight: lighter;
+    color: gray;
+}
+.hire-me
+{
+    margin: 1.5rem auto;
+    display: block;
+    border: none;
+    padding: .8rem 1.6rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.hire-me:hover
+{
+    transition: 0.2s;
+    background-color: gray;
+    font-weight: 500;
+}
+.social-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-item
+{
+    display: grid;
+    margin: 0rem 2rem;
+}
+.instagram
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.followers
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.youtube
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.followers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
