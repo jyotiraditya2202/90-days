@@ -1,0 +1,33 @@
+
+.button
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    outline: 2px solid #fff;
+    padding: 30px 60px;
+    position: absolute;
+    overflow: hidden;
+    transition: color 1s;
+}
+.button:hover
+{
+    background-color: rgb(116, 23, 204);
+}
+.button::before
+{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    transform: skewX(-35deg);
+    z-index: -1;
+    transition: 1s;
+}
+.button::before:hover
+{
+    width: 150%;
+}
